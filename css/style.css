@@ -1,0 +1,13 @@
+/* Navbar styling */
+.logo {
+    width: 42px;;
+}
+
+.navbar {
+    padding: 24px 5%;
+}
+
+/* Breadcrumb styling */
+.breadcrumb-container {
+    padding: 24px 5%;
+}
