@@ -148,6 +148,14 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
+ul.pagination {
+    --bs-link-color: #2a4f4c;
+    --bs-link-hover-color: #86a9a3;
+    --bs-pagination-focus-bg: #e9ecef;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(42, 79, 76, 0.3);
+}
+
 .list-group {
     --bs-list-group-color: #161616;
     --bs-list-group-bg: #fff;
@@ -155,11 +163,11 @@ a:-webkit-any-link {
     --bs-list-group-item-padding-y: 0.5rem;
     --bs-list-group-action-color: #717171;
     --bs-list-group-action-hover-color: white;
-    --bs-list-group-action-hover-bg: #86a9a3;
-    --bs-list-group-action-active-color: #161616;
-    --bs-list-group-action-active-bg: #86a9a3;
-    --bs-list-group-disabled-color: #c5c5c5;
-    --bs-list-group-disabled-bg: #717171;
+    --bs-list-group-action-hover-bg: #C5C5C5;
+    --bs-list-group-action-active-color: white;
+    --bs-list-group-action-active-bg: #717171;
+    --bs-list-group-disabled-color: #717171;
+    --bs-list-group-disabled-bg: #c5c5c5;
     --bs-list-group-active-color: #fff;
     --bs-list-group-active-bg: #2a4f4c;
     --bs-list-group-active-border-color: #2a4f4c;
