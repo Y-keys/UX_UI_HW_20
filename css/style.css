@@ -149,13 +149,6 @@ a:-webkit-any-link {
     text-decoration: underline;
 }
 
-ul.pagination {
-    --bs-link-color: #2a4f4c;
-    --bs-link-hover-color: #86a9a3;
-    --bs-pagination-focus-bg: #e9ecef;
-    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(42, 79, 76, 0.3);
-}
-
 .list-group {
     --bs-list-group-color: #161616;
     --bs-list-group-bg: #fff;
@@ -206,6 +199,25 @@ ul.pagination {
     list-style: none;
 }
 
+ul.pagination {
+    --bs-link-color: #2a4f4c;
+    --bs-link-hover-color: #86a9a3;
+    --bs-pagination-focus-bg: #e9ecef;
+    --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgba(42, 79, 76, 0.3);
+}
+
 a.page-link {
     color: #2a4f4c;
+}
+
+/* Footer styling */
+footer p {
+    font-family: 'Albert Sans';
+    font-size: 14px;
+    color: #161616;
+}
+
+.Fnav-item a {
+    font-size: 14px;
+    color: #161616;
 }
