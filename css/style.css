@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #86a9a3;
 }
 
+/* Project summary section */
+
 .summary {
     column-gap: 48px;
 }
@@ -93,13 +95,11 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0%;
   }
 
-
-  element.style {
-}
 #list-example a {
     border: none;
     border-radius: 0%;
 }
+
 .list-group-item.active {
     z-index: 2;
     color: var(--bs-list-group-active-color);
