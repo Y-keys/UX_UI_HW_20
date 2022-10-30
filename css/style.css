@@ -78,10 +78,13 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 0;
 }
 
-.placeholder {
-    width: 80%;
-    height: 400px;
-    margin: 24px 5%;
+.top-image {
+    max-width: 1024px;
+    margin: 24px 5% 48px 5%;
+}
+
+.top-image img {
+    max-width: 100%;
 }
 
 /* Scrollspy styling */
