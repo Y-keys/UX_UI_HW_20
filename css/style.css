@@ -19,6 +19,29 @@ h1, h2, h3, h4, h5, h6 {
     color: #2a4f4c;
 }
 
+h1 {
+    font-size: 96px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 24px
+}
+
+h6 {
+    font-size: 18px;
+}
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #2a4f4c;
@@ -73,6 +96,11 @@ h1, h2, h3, h4, h5, h6 {
     column-gap: 48px;
 }
 
+.myRole li {
+    list-style-position: initial;
+    font-size: 18px;
+}
+
 .container {
     margin-left: 5%;
     padding-left: 0;
@@ -90,6 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Scrollspy styling */
 .process-row {
     margin: 24px 5%;
+    column-gap: 32px;
 }
 
 .indexTab div {
